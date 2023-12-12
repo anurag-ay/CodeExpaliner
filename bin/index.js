@@ -9,13 +9,11 @@ const fileName = process.argv[2];
 
 async function getExpalinedCode(fileName) {
   // starting animation while loading
-  let animationObjects;
 
   try {
     // Reading file
     const textFileData = await readFile(fileName);
-    animationObjects = startLoaderAnimation();
-
+    const animationObjects = startLoaderAnimation();
     // Passing file's text data for getting explaination
     const expalinedCodeText = await explainCode(textFileData);
 
@@ -28,7 +26,7 @@ async function getExpalinedCode(fileName) {
     // Print final message
     console.log(chalk.bgGreen.bold("Hope that helps."));
   } catch (err) {
-    animationObjects.spinner.error({ text: err.message });
+    console.log(err.message);
     process.exit(1);
   }
 }
