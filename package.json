@@ -10,7 +10,7 @@
     "node": "16.17.0"
   },
   "bin": {
-    "CodeExplainer": "./bin/index.js"
+    "codeexplainer": "./bin/index.js"
   },
   "keywords": [
     "openai",
@@ -23,7 +23,6 @@
   "dependencies": {
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
-    "dotenv": "^16.3.1",
     "nanospinner": "^1.1.0",
     "openai": "^4.20.1"
   }
