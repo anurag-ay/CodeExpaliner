@@ -1,3 +1,3 @@
-const OPENAI_SECRET_KEY = "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";
+const OPENAI_SECRET_KEY = "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";
 
 export default OPENAI_SECRET_KEY;
