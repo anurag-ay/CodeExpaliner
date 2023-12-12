@@ -3,7 +3,7 @@ import chalkAnimation from "chalk-animation";
 
 export function startLoaderAnimation() {
   const spinner = createSpinner("please wait....");
-  const animation = chalkAnimation.rainbow("\nGetting explaination");
+  const animation = chalkAnimation.rainbow("\nGetting explanation");
   spinner.start();
 
   return { spinner, animation };

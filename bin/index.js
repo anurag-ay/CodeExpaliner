@@ -7,21 +7,21 @@ import { startLoaderAnimation, stopLoaderAnimation } from "../utils/loader.js";
 //Get the file name from the command line argument
 const fileName = process.argv[2];
 
-async function getExpalinedCode(fileName) {
+async function getExplainedCode(fileName) {
   // starting animation while loading
 
   try {
     // Reading file
     const textFileData = await readFile(fileName);
     const animationObjects = startLoaderAnimation();
-    // Passing file's text data for getting explaination
-    const expalinedCodeText = await explainCode(textFileData);
+    // Passing file's text data for getting explanation
+    const explainedCodeText = await explainCode(textFileData);
 
     // stopping loader animation
     stopLoaderAnimation(animationObjects);
 
     // Printing code expalaination
-    console.log(`${expalinedCodeText}\n`);
+    console.log(`${explainedCodeText}\n`);
 
     // Print final message
     console.log(chalk.bgGreen.bold("Hope that helps."));
@@ -30,4 +30,4 @@ async function getExpalinedCode(fileName) {
     process.exit(1);
   }
 }
-getExpalinedCode(fileName);
+getExplainedCode(fileName);

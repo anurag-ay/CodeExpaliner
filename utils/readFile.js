@@ -6,7 +6,7 @@ function readFile(fileName) {
   if (!fileName) {
     console.error(
       chalk.redBright("Please provide a file name") +
-        chalk.green("\nLike this: CodeExpaliner <File Name>")
+        chalk.green("\nLike this: CodeExplainer <File Name>")
     );
     process.exit(1);
   }

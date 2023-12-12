@@ -27,7 +27,7 @@ Run Command `npx codeexplainer <FileName>` to execute package without installing
 ##### To install globally Run Command
 
 ```text
-1. Run Command `npm i -g codeexplainer` to insall package globally
+1. Run Command `npm i -g codeexplainer` to install package globally
 2. Run command `codeexplainer <FileName>`
 ```
 
@@ -43,7 +43,7 @@ Run Command `npx codeexplainer <FileName>` to execute package without installing
 1. Run command `git clone https://github.com/anurag-ay/CodeExplainer` to clone github repo.
 2. Navigate to cloned dir
 3. Run command `npm i -g` to install the package globally
-4. Run command `codeexplainer <FileName>` to get explaination
+4. Run command `codeexplainer <FileName>` to get explanation
 
 ### License
 

@@ -9,7 +9,7 @@ async function explainCode(data) {
     messages: [
       {
         role: "system",
-        content: `Analyze and expalin the code :${data}`,
+        content: `Analyze and explain the code :${data}`,
       },
     ],
     model: "gpt-3.5-turbo",
