@@ -19,7 +19,7 @@ A CLI to explain code present in file.
 #### A. By Directly Executing npm package
 
 ```text
-Run Command `npx code_explainer` to execute package without installing it.
+Run Command `npx codeexplainer` to execute package without installing it.
 ```
 
 #### B. By installing globally or locally
@@ -27,22 +27,20 @@ Run Command `npx code_explainer` to execute package without installing it.
 ##### To install globally Run Command
 
 ```text
-Run Command `npm i -g code_explainer` to insall package globally
+Run Command `npm i -g codeexplainer` to insall package globally
 ```
 
 ##### To install Locally Run Command
 
 ```text
-Run Command `npm i code_explainer --save-dev` to install package locally as dev dependency.
+Run Command `npm i codeexplainer --save-dev` to install package locally as dev dependency.
 ```
 
 #### C. By cloning git repos
 
 1. Run command `git clone https://github.com/anurag-ay/CodeExplainer` to clone github repo.
-2. Create `.env` file out of `example.env`
-3. Get OpenAi API key paste it in .env file
-4. Run command `npm i -g` to install the package globally
-5. Run command `CodeExplainer <FileName>` to get explaination
+2. Run command `npm i -g` to install the package globally
+3. Run command `CodeExplainer <FileName>` to get explaination
 
 ### License
 
