@@ -1,6 +1,6 @@
 # _CodeExplainer_
 
-![MIT License](https://img.shields.io/badge/license-MIT-green)
+![ISC License](https://img.shields.io/badge/license-ICS-green)
 ![Build Passing](https://img.shields.io/badge/build-passing-brightgreen)
 ![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-orange)
 ![npm v6.14.8](https://img.shields.io/badge/npm-v8.15.0-blue)
@@ -47,4 +47,4 @@ Run Command `npx codeexplainer <FileName>` to execute package without installing
 
 ### License
 
-MIT © **_termTranslate_**
+ISC © **_termTranslate_**
