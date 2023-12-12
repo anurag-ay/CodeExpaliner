@@ -19,7 +19,7 @@ A CLI to explain code present in file.
 #### A. By Directly Executing npm package
 
 ```text
-Run Command `npx codeexplainer` to execute package without installing it.
+Run Command `npx codeexplainer <FileName>` to execute package without installing it.
 ```
 
 #### B. By installing globally or locally
@@ -27,20 +27,23 @@ Run Command `npx codeexplainer` to execute package without installing it.
 ##### To install globally Run Command
 
 ```text
-Run Command `npm i -g codeexplainer` to insall package globally
+1. Run Command `npm i -g codeexplainer` to insall package globally
+2. Run command `codeexplainer <FileName>`
 ```
 
 ##### To install Locally Run Command
 
 ```text
-Run Command `npm i codeexplainer --save-dev` to install package locally as dev dependency.
+1. Run Command `npm i codeexplainer --save-dev` to install package locally as dev dependency.
+2. Run command `codeexplainer <FileName>`
 ```
 
 #### C. By cloning git repos
 
 1. Run command `git clone https://github.com/anurag-ay/CodeExplainer` to clone github repo.
-2. Run command `npm i -g` to install the package globally
-3. Run command `CodeExplainer <FileName>` to get explaination
+2. Navigate to cloned dir
+3. Run command `npm i -g` to install the package globally
+4. Run command `codeexplainer <FileName>` to get explaination
 
 ### License
 
