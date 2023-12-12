@@ -1,9 +1,13 @@
 import fs from "fs";
+import chalk from "chalk";
 
 function readFile(fileName) {
   //Check if the file name is provided
   if (!fileName) {
-    console.error("Please provide a file name");
+    console.error(
+      chalk.redBright("Please provide a file name") +
+        chalk.green("\nLike this: CodeExpaliner <File Name>")
+    );
     process.exit(1);
   }
 
