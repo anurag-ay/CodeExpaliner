@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
 dotenv.config();
+import beautifyResponse from "../utils/beautifyResponse.js";
 
 import OpenAI from "openai";
 const openai = new OpenAI({ apiKey: process.env.OPENAI_SECRET_KEY });
-// import beautifyResponse from "../utils/beautifyResponse";
 
 async function explainCode(data) {
   const reqConfigForApi = {
