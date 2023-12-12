@@ -9,11 +9,12 @@ const fileName = process.argv[2];
 
 async function getExpalinedCode(fileName) {
   // starting animation while loading
-  const animationObjects = startLoaderAnimation();
+  let animationObjects;
 
   try {
     // Reading file
     const textFileData = await readFile(fileName);
+    animationObjects = startLoaderAnimation();
 
     // Passing file's text data for getting explaination
     const expalinedCodeText = await explainCode(textFileData);
