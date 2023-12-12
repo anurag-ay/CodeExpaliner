@@ -1,8 +1,9 @@
-import OPENAI_SECRET_KEY from "../env_vars/_evnVars.js";
+import dotenv from "dotenv";
+dotenv.config();
 import beautifyResponse from "../utils/beautifyResponse.js";
 
 import OpenAI from "openai";
-const openai = new OpenAI({ apiKey: OPENAI_SECRET_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_SECRET_KEY });
 
 async function explainCode(data) {
   const reqConfigForApi = {
