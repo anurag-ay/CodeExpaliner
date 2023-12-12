@@ -10,7 +10,7 @@
     "node": "16.17.0"
   },
   "bin": {
-    "CodeExpaliner": "index.js"
+    "CodeExpaliner": "./bin/index.js"
   },
   "keywords": [
     "openai",
