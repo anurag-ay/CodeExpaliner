@@ -25,4 +25,4 @@ function beautifyResponse(rawText) {
   return text;
 }
 
-module.exports = beautifyResponse;
+export default beautifyResponse;

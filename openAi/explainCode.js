@@ -1,6 +1,9 @@
-const OpenAI = require("openai");
+import dotenv from "dotenv";
+dotenv.config();
+
+import OpenAI from "openai";
 const openai = new OpenAI({ apiKey: process.env.OPENAI_SECRET_KEY });
-const beautifyResponse = require("../utils/beautifyResponse");
+// import beautifyResponse from "../utils/beautifyResponse";
 
 async function explainCode(data) {
   const reqConfigForApi = {
@@ -24,4 +27,4 @@ async function explainCode(data) {
   }
 }
 
-module.exports = explainCode;
+export default explainCode;

@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 function readFile(fileName) {
   //Check if the file name is provided
@@ -19,4 +19,4 @@ function readFile(fileName) {
   });
 }
 
-module.exports = readFile;
+export default readFile;
