@@ -19,7 +19,7 @@ A CLI to explain code present in file.
 #### A. By Directly Executing npm package
 
 ```text
-1. Create .env file
+1. Create .env file at root of the directory where your code is present.
 2. Paste your OpenAi secret key as OPENAI_SECRET_KEY = <Your_Secret_Key>.
 2. Run Command `npx explaincode <FileName>` to execute package without installing it.
 ```
@@ -30,7 +30,7 @@ A CLI to explain code present in file.
 
 ```text
 1. Run Command `npm i -g explaincode` to install package globally
-2. Create .env file
+2. Create .env file at root of the directory where your code is present.
 3. Paste your OpenAi secret key as OPENAI_SECRET_KEY = <Your_Secret_Key>.
 4. Run command `explaincode <FileName>`
 ```
@@ -39,7 +39,7 @@ A CLI to explain code present in file.
 
 ```text
 1. Run Command `npm i explaincode --save-dev` to install package locally as dev dependency.
-2. Create .env file
+2. Create .env file at root of the directory where your code is present.
 3. Paste your OpenAi secret key as OPENAI_SECRET_KEY = <Your_Secret_Key>.
 4. Run command `explaincode <FileName>`
 ```
@@ -49,7 +49,7 @@ A CLI to explain code present in file.
 1. Run command `git clone https://github.com/anurag-ay/explaincode` to clone github repo.
 2. Navigate to cloned dir
 3. Run command `npm i -g` to install the package globally
-4. Create .env file
+4. Create .env file at root of the directory where your code is present.
 5. Paste your OpenAi secret key as OPENAI_SECRET_KEY = <Your_Secret_Key>.
 6. Run command `explaincode <FileName>` to get explanation
 
