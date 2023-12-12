@@ -1,5 +1,5 @@
 {
-  "name": "codeexplainer",
+  "name": "explaincode",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "node": "16.17.0"
   },
   "bin": {
-    "codeexplainer": "./bin/index.js"
+    "explaincode": "./bin/index.js"
   },
   "keywords": [
     "openai",
